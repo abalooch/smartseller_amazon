@@ -14,7 +14,6 @@
     </parent>
 
     <modules>
-        <module></module>
         <module>SmartSellerWeb</module>
         <module>SmartSellerCommons</module>
         <module>SmartSellerBatch</module>
