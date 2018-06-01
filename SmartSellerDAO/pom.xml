@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>SmartSellerWeb</artifactId>
+    <artifactId>SmartSellerDAO</artifactId>
     <packaging>jar</packaging>
 
-    <name>SmartSellerWeb</name>
+    <name>SmartSellerDAO</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -23,28 +23,6 @@
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-            <version>3.6.3</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver -->
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongodb-driver</artifactId>
-            <version>3.6.3</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.thinkwik.amazon</groupId>
-            <artifactId>SmartSellerService</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.thinkwik.amazon</groupId>
